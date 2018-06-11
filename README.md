@@ -1,3 +1,6 @@
+
+[__DEMO__](https://tominurmi.github.io/think-vr/)
+
 ### Installation
 
 
