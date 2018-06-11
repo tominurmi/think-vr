@@ -1,0 +1,23 @@
+{
+  "name": "think-vr",
+  "description": "a penny for your thoughts",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo --verbose --port 1337 --open",
+    "deploy": "ghpages",
+    "ghpages": "ghpages"
+  },
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "ghpages": "0.0.3"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-boilerplate",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ]
+}

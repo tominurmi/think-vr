@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Think in VR</title>
+    <meta name="description" content="Inside my head...">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
+      <a-sky color="#F8F9F4"></a-sky>
+      <a-camera position="0 1.6 0" rotation="-2.406422739549474 0.916732472209314 0" scale="1 1 1" visible="true" camera="fov:90;zoom:2" look-controls="" wasd-controls="">
+        <!--<a-cursor material="" raycaster="" cursor="" geometry=""></a-cursor>-->
+      </a-camera>
+      
+      <a-image src="images/cocoon.png" position="2.45 158.85 -141.73" rotation="20.63 0 0" scale="1 1 1" visible="true" material="color:#FFF;shader:flat;side:double;transparent:true;flatShading:false;fog:true" geometry="primitive:plane;width:100;height:100;depth:0.6"></a-image>
+      <a-image src="images/what.png" position="-165.72 158.85 -6.04" rotation="20.63 90.53 0" scale="1 1 1" visible="true" material="color:#FFF;shader:flat;side:double;transparent:true;src:images/what.png;flatShading:false;fog:true" geometry="primitive:plane;width:90;height:150;depth:0.6"></a-image>
+      <a-image src="images/look.png" position="-4.97 15.22 -165.32" rotation="0 0 0" scale="1 1 1" visible="true" material="color:#FFF;shader:standard;side:double;transparent:true;src:images/look.png;flatShading:false;fog:false;opacity:1;npot:false;height:0;roughness:0;width:0;wireframeLinewidth:1" geometry="primitive:plane;width:100;height:100;depth:2;skipCache:false;segmentsWidth:1"></a-image>
+
+    </a-scene>
+  </body>
+</html>
